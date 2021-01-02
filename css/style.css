@@ -1,0 +1,49 @@
+* {
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: LightGray;
+}
+
+#main, #tribute {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#img-caption {
+  text-align: center;
+  padding: 5px;
+}
+
+#main, #img-div, figure, figcaption {
+  background-color: white;
+}
+
+.column {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+header {
+  text-align: center;
+  padding: 2px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  max-width: 40%;
+  border-radius: 50%;
+}
+
+li {
+  padding: 5px;
+}
+
+@media (max-width: 600px;) {
+  .column {
+    flex: 100%;
+  }
+}
